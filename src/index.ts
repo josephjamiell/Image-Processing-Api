@@ -8,6 +8,7 @@ app.use("/", routes);
 
 app.listen(port, () => {
     console.log(`Server is listening on localhost:${port}`);
+    console.log("Press ctrl + c to exit...");
 });
 
 export default app;
