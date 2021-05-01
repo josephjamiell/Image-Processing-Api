@@ -7,13 +7,11 @@ A simple image processing api for resizing images,
 
 ```bash
 ├── images
-│   ├── cached
-│   └── original
-│       ├── encenadaport.jpg
-│       ├── fjord.jpg
-│       ├── icelandwaterfall.jpg
-│       ├── palmtunnel.jpg
-│       └── santamonica.jpg
+│   ├── encenadaport.jpg
+│   ├── fjord.jpg
+│   ├── icelandwaterfall.jpg
+│   ├── palmtunnel.jpg
+│   └── santamonica.jpg
 ├── package-lock.json
 ├── package.json
 ├── readme.md
