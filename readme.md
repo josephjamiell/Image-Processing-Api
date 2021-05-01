@@ -36,9 +36,38 @@ A simple image processing api for resizing images,
 └── tsconfig.json
 ```
 
+## Dependencies & DevDependencies
+
+```bash
+"devDependencies": {
+    "@types/eslint": "^7.2.10",
+    "@types/express": "^4.17.11",
+    "@types/jasmine": "^3.6.10",
+    "@types/node": "^14.14.41",
+    "@types/sharp": "^0.28.0",
+    "@types/supertest": "^2.0.11",
+    "@types/typescript": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "jasmine": "^3.7.0",
+    "jasmine-spec-reporter": "^7.0.0",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1",
+    "supertest": "^6.1.3",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sharp": "^0.28.1"
+  }
+```
+
 ## Installation
 
-Run npm installer to install application dependencies
+Run npm installer to install application dependencies & dev
 
 ```bash
 npm install

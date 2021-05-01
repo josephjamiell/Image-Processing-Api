@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/josephjamiell/ImageProcessingApi.git"
+    "url": "git+https://github.com/josephjamiell/Image-Processing-Api.git"
   },
   "author": "Jamiell Joseph",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/josephjamiell/ImageProcessingApi/issues"
+    "url": "https://github.com/josephjamiell/Image-Processing-Api/issues"
   },
-  "homepage": "https://github.com/josephjamiell/ImageProcessingApi#readme",
+  "homepage": "https://github.com/josephjamiell/Image-Processing-Api#readme",
   "devDependencies": {
     "@types/eslint": "^7.2.10",
     "@types/express": "^4.17.11",

@@ -3,7 +3,7 @@ import {promises as fsPromises} from "fs";
 import path from "path";
 import sharp from "sharp";
 
-const originalImagesDir = "./images/original/";
+const originalImagesDir = "./images/";
 const cachedImagesDir = "./images/cached/";
 
 const resizeImage = async (image: string, height: number, width: number): Promise<string> => {
@@ -29,6 +29,9 @@ const resizeImage = async (image: string, height: number, width: number): Promis
             .jpeg({ mozjpeg: true })
             .toBuffer()
             .then( async (data) => {
+                if(!fs.existsSync(cachedImagesDir)){
+                    fs.mkdirSync(cachedImagesDir);
+                };
                 await fsPromises.writeFile(newImage, data);
                 resolve(path.resolve(newImage));
             })

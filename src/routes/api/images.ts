@@ -3,7 +3,7 @@ import imageProcessor from "../../utilities/imageprocessor";
 
 const images = express.Router();
 
-images.get("/", (req, res) => {
+images.get("/", (req: express.Request, res: express.Response) => {
     
     const name = String(req.query.name);
     const height = Number(req.query.height);
